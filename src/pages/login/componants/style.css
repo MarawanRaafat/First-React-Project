@@ -1,0 +1,142 @@
+.contaner-of-form {
+    padding: 100px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(176, 231, 255);
+    
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+a {
+    text-align: right;
+    text-decoration: none;
+    font-size: small;
+    margin: 14px;
+}
+
+
+.sec-btn {
+    gap: 6px;
+    width: 100%;
+    height: 52px;
+    font-size: 16px;
+    padding: 12px 9px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #F3F9FA;
+}
+
+.or-div {
+    display: flex;
+    justify-content: center;
+}
+
+.or {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2px;
+    margin-bottom: 32px;
+    color: #121212;
+}
+
+.line {
+    width: 167px;
+    height: 2px;
+    background-color: #121212;
+    margin-right: 8px;
+}
+
+.line-2 {
+    width: 167px;
+    height: 2px;
+    background-color: #121212;
+    margin-left: 8px;
+}
+
+.Google {
+    width: 28px;
+    height: 28px;
+    background-image: url("public/Google.png");
+}
+
+.Facebook {
+    width: 28px;
+    height: 28px;
+    background-image: url("public/Facebook.png")
+}
+
+P {
+    text-align: center;
+}
+
+.improve-img {
+    width: 50%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 1000px) {
+    * {
+        font-size: medium;
+    }
+
+    body {
+        display: block;
+    }
+
+    .contaner-of-all {
+        width: 100%;
+        height: 100svh;
+        padding: 16px;
+        gap: 6px;
+        flex-direction: column-reverse;
+    }
+
+    .contaner-of-form {
+        width: 100%;
+        height: inherit;
+        padding: 8px;
+        border-radius: 20px;
+    }
+
+    .log-in-form {
+        width: 100%;
+    }
+
+    .improve-img {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        object-position: center;
+    }
+}
